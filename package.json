@@ -1,0 +1,19 @@
+{
+  "name": "naf-entity-saver",
+  "version": "0.0.1",
+  "description": "NAF Entity Saver is a patch of the Networked Aframe (NAF) entity manager class that will take ownership and rebroadcast entities of another user when they leave the room.",
+  "main": "dist/naf-entity-saver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nitramtj/naf-entity-saver.git"
+  },
+  "author": "Martin Tribo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nitramtj/naf-entity-saver/issues"
+  },
+  "homepage": "https://github.com/Nitramtj/naf-entity-saver#readme"
+}
