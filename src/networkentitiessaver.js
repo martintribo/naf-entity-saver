@@ -15,7 +15,7 @@ class NetworkEntitiesSaver extends NetworkEntities {
         });
         entity.removeAttribute('networked-remote');
         if (entity.parentNode === scene) {
-          entity.remove();
+          scene.removeChild(entity);
         }
       }
     }

@@ -92,7 +92,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        });
 	        entity.removeAttribute('networked-remote');
 	        if (entity.parentNode === scene) {
-	          entity.remove();
+	          scene.removeChild(entity);
 	        }
 	      }
 	    }
