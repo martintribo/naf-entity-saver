@@ -14,6 +14,9 @@ class NetworkEntitiesSaver extends NetworkEntities {
           'template': entity.components['networked-remote'].data.template
         });
         entity.removeAttribute('networked-remote');
+        if (entity.parentNode === scene) {
+          entity.remove();
+        }
       }
     }
 
@@ -21,6 +24,9 @@ class NetworkEntitiesSaver extends NetworkEntities {
       e['entity'].setAttribute('networked', {
         'template': e['template']
       });
+    });
+
+    entityList.forEach(e => {
       if (e['entity'].parentNode == null) {
         scene.appendChild(e['entity']);
       }

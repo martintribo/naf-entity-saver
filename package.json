@@ -1,6 +1,6 @@
 {
   "name": "naf-entity-saver",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "NAF Entity Saver is a patch of the Networked Aframe (NAF) entity manager class that will take ownership and rebroadcast entities of another user when they leave the room.",
   "main": "dist/naf-entity-saver.js",
   "scripts": {
