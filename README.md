@@ -21,3 +21,11 @@ Include the following after NAF
 ```HTML
 <script src="https://unpkg.com/naf-entity-saver"></script>
 ```
+
+## Bugs
+NAF Entity Saver seems to reload its own networked entities when a user leaves the room. This will cause strange behavior if the client using the entity saver has a networked entity with spawning logic or other unique behavior. For now, I recommend making a client that loads your assets, but does not contain any of its own entities.
+
+## Try it out
+You can try out NAF Entity Saver on glitch at [naf-entity-saver.glitch.me](https://naf-entity-saver.glitch.me/). I will try to have a process running the saver client, but if avatars are not saving when players leave, you will need to load it yourself. You can load the saver client [here](https://naf-entity-saver.glitch.me/saver.html).
+
+Feel free to remix [naf-entity-saver](https://glitch.com/~naf-entity-saver).
