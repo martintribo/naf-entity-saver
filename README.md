@@ -29,3 +29,6 @@ NAF Entity Saver seems to reload its own networked entities when a user leaves t
 You can try out NAF Entity Saver on glitch at [naf-entity-saver.glitch.me](https://naf-entity-saver.glitch.me/). I will try to have a process running the saver client, but if avatars are not saving when players leave, you will need to load it yourself. You can load the saver client [here](https://naf-entity-saver.glitch.me/saver.html).
 
 Feel free to remix [naf-entity-saver](https://glitch.com/~naf-entity-saver).
+
+## Disclaimer
+At this stage, NAF Entity Saver is still a prototype. It patches internal classes of NAF that could change in 3.0. It also is not well tested, so use with caution. Let me know if you're interested, and I can look into this project more robust.
